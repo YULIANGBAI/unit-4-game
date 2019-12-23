@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div class="w-25 p-2">
+        <div class="row">
+            <div class="col-sm">
+                <h1>Crystal Collector</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-50 p-2">
+        <div class="row">
+            <div class="col-sm">
+                <p>You will be given a random number at the start of the game.
+                    <br><br>
+                    There are four crystal below. By clicking on a crystal you will add a specific amount of points to your total score.
+                    <br><br>
+                    You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+                    <br><br>
+                    The value of each crystal is hidden from you until you click on it.
+                    <br><br>
+                    Each time when the game starts, the game will change the value of each crystal.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row status">
+        <div class="col-sm-2 match">
+            <p>Match:</p>
+        </div>
+        <div class="col-sm-1" id="randomNumber">
+
+        </div>
+        <div class="col-sm-1 game">
+            <p id="win">wins:</p>
+            <p id="lost">losses:</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <img id="white" src="assets/image/white.jpg" class="image">
+        <img id="red" src="assets/image/red.jpg" class="image">
+        <img id="purple" src="assets/image/purple.jpg" class="image">
+        <img id="green" src="assets/image/green.jpg" class="image">
+     </div>
+
+    <div class="row">
+        <div class="col-sm-2 score">
+            <p>your score is:</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="col-sm-2 scoreCount" id="score">
+
+            </div>
+        </div>
+    </div>
+
+<script src="assets/javascript/game.js">
+    
+</script>
+  
+</body>
+</html>

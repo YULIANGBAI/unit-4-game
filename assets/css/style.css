@@ -1,0 +1,64 @@
+body{
+    background-image:url("../image/background.jpg");
+}
+
+.w-25{
+    margin-left:10px;
+    background-color:chocolate;
+    margin-top:10px;
+    height:150px;
+}
+
+.w-50{
+    margin-top:10px;
+    margin-left:10px;
+    background-color:grey;
+    height:400px;
+    color:green;
+}
+
+.match{
+    background: greenyellow;
+    color:black;
+    margin-top:10px;
+    margin-left:25px;
+    height:100px;
+    padding:10px;
+}
+
+#randomNumber{
+    background:greenyellow;
+    margin-top:10px;
+    padding:10px;
+    height:100px;
+
+}
+
+.game{
+    background-color:burlywood;
+    margin-top:10px;
+    padding:10px;
+    height:100px;
+
+}
+
+.image{
+    margin-top:10px;
+    margin-left:25px;
+    width:80px;
+    height:80px;
+}
+
+.score{
+    background-color:cadetblue;
+    margin-top:10px;
+    margin-left:25px;
+    height:25px;
+}
+
+.scoreCount{
+    margin-top:10px;
+    margin-left:25px;
+    height:50px;
+    background-color:cadetblue;
+}
